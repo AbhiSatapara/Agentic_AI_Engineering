@@ -1,0 +1,51 @@
+[
+  {
+    "id": "facilities-programme-highlights",
+    "title": "Programme highlights (IBM Software Lab, internship and capstone)",
+    "category": "Student Facilities",
+    "content": "### Programme Highlights (Apply page)\nIBM Software Lab: industry-aligned training\n200+ Multinational Corporates\n37+ Years legacy of Adani Group\n5+5 Months Internship & Capstone\nNo further details about the IBM Software Lab are given on the page.",
+    "source_url": "https://www.aidtm.ac.in/apply-admission",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "ibm",
+      "software lab",
+      "internship",
+      "capstone",
+      "industry",
+      "highlights"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "facilities-overview",
+    "title": "Facilities and student support at AIDTM",
+    "category": "Student Facilities",
+    "content": "What the official website says about facilities and student support:\n- Campus: the website describes a \"state-of-the-art campus\" and \"State-of-Art Infrastructure\". The campus address is Opp. Maharaj Hotel Lane, Sarkhej - Gandhinagar Highway, PO: Jamiyatpura, Gandhinagar - 382423, Gujarat.\n- Classrooms: the homepage gallery highlights \"Smart classroom teaching\". The IT Officer provides Smart Classroom technical support and manages the institute's computer network.\n- Library: the About Us page lists an Assistant Librarian (Mr. Chetas Bhagat) in the AIDTM team. No details about the library collection or timings are published.\n- IBM Software Lab: the Apply page lists \"IBM Software Lab - industry-aligned training\" under programme highlights, without further detail.\n- Learning beyond the classroom: industrial visits, industry-based capstone projects solving real-time problems, and summer internships (see the Placement page).\n- Virtual tour: the website has a 360-degree Virtual Tour page (https://www.aidtm.ac.in/360tour); its content could not be read as text.\n- Student support committees listed under Statutory Documents: Anti-Ragging Committee, Grievance Redressal Cell, Women Development Cell, SC/ST Cell.\n- Student activities shown on the homepage: Convocation Ceremony for PGDM (BDA/TM) Batch 2022-24 (1 Mar 2025), AIDTM's Prashasti 2025 (31 Jan 2025) and Techathon 2025 (9 Jan 2025). The website menu also has Hackathon and Blogs sections.\nNot found on the pages reviewed: hostel or accommodation, transport, cafeteria, sports facilities, Wi-Fi details, medical facilities. The website does not say whether these exist, so for these topics students should contact the admissions office (admissions@aidtm.ac.in).",
+    "source_url": "https://www.aidtm.ac.in/",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "facilities",
+      "facility",
+      "infrastructure",
+      "campus",
+      "library",
+      "smart classroom",
+      "lab",
+      "hostel",
+      "canteen",
+      "sports",
+      "wifi",
+      "amenities",
+      "student support",
+      "virtual tour",
+      "anti-ragging",
+      "grievance"
+    ],
+    "additional_sources": [
+      "https://www.aidtm.ac.in/about-us",
+      "https://www.aidtm.ac.in/apply-admission",
+      "https://www.aidtm.ac.in/Placement"
+    ],
+    "managed_by": "manual"
+  }
+]
