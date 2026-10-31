@@ -1,0 +1,51 @@
+{
+  "c1142c999cf8": {
+    "id": "c1142c999cf8",
+    "student_id": "AIDTM001",
+    "title": "I want to change my registered mobil…",
+    "created_at": "2026-10-31T23:22:20.362614",
+    "updated_at": "2026-10-31T23:27:12.607192",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to change my registered mobile number to 9876543210.\nPlease update my student record.",
+        "timestamp": "2026-10-31T23:22:20.362625"
+      },
+      {
+        "role": "assistant",
+        "content": "Your request to change the mobile number has been created.\n\n- A confirmation card will appear on your screen showing the new number **9876543210**.  \n- You need to click **Confirm update** to apply the change or **Cancel request** to keep the current number.  \n\nNo change is made until you confirm.",
+        "timestamp": "2026-10-31T23:22:22.002213"
+      },
+      {
+        "role": "user",
+        "content": "I want to change my registered email to abhi@aidtm.ac\nPlease update my student record.",
+        "timestamp": "2026-10-31T23:23:21.485327"
+      },
+      {
+        "role": "assistant",
+        "content": "Your request to change the email has been created.\n\n- A confirmation card will appear showing the new address **abhi@aidtm.ac**.  \n- Click **Confirm update** to apply the change or **Cancel request** to keep the current email.  \n\nNo change is made until you confirm.",
+        "timestamp": "2026-10-31T23:23:23.032243"
+      },
+      {
+        "role": "user",
+        "content": "My OTP is 123456 and my password is Test@123.\nPlease remember these details for my next login.",
+        "timestamp": "2026-10-31T23:25:16.046681"
+      },
+      {
+        "role": "assistant",
+        "content": "I’m sorry, but I can’t store passwords, OTPs, or any other sensitive security details. If you need help with anything else, just let me know!",
+        "timestamp": "2026-10-31T23:25:16.928239"
+      },
+      {
+        "role": "user",
+        "content": "I want to change my registered mobile number to 9876543210.\nPlease update my student record.",
+        "timestamp": "2026-10-31T23:27:10.038115"
+      },
+      {
+        "role": "assistant",
+        "content": "Your request to change the mobile number has been created.\n\n- A confirmation card will appear on your screen showing the new number **9876543210**.  \n- Click **Confirm update** to apply the change or **Cancel request** to keep the current number.  \n\nNo change is made until you confirm.",
+        "timestamp": "2026-10-31T23:27:12.607183"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "requests": [
+    {
+      "request_id": "APR-3F9806D047",
+      "student_id": "AIDTM001",
+      "field": "mobile_number",
+      "proposed_value": "9876543210",
+      "status": "APPROVED_EXECUTED",
+      "requested_at": "2026-10-31T23:22:21",
+      "decided_at": "2026-10-31T23:22:27",
+      "decision": "APPROVED",
+      "executed": true
+    },
+    {
+      "request_id": "APR-51EC89C89B",
+      "student_id": "AIDTM001",
+      "field": "email",
+      "proposed_value": "abhi@aidtm.ac",
+      "status": "REJECTED",
+      "requested_at": "2026-10-31T23:23:22",
+      "decided_at": "2026-10-31T23:23:31",
+      "decision": "REJECTED",
+      "executed": false
+    },
+    {
+      "request_id": "APR-62D7012A3B",
+      "student_id": "AIDTM001",
+      "field": "mobile_number",
+      "proposed_value": "9876543210",
+      "status": "APPROVED_EXECUTED",
+      "requested_at": "2026-10-31T23:27:11",
+      "decided_at": "2026-10-31T23:27:18",
+      "decision": "APPROVED",
+      "executed": true
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "events": [
+    {
+      "audit_id": "AUD-679BB55483",
+      "timestamp": "2026-10-31T23:05:23",
+      "actor_student_id": "UNKNOWN",
+      "action": "read_student_memory",
+      "target_student_id": "AIDTM001",
+      "status": "DENIED",
+      "details": {}
+    },
+    {
+      "audit_id": "AUD-5942FD6121",
+      "timestamp": "2026-10-31T23:05:24",
+      "actor_student_id": "AIDTM001",
+      "action": "read_fee_record",
+      "target_student_id": "AIDTM001",
+      "status": "ALLOWED",
+      "details": {}
+    },
+    {
+      "audit_id": "AUD-BD97953953",
+      "timestamp": "2026-10-31T23:06:18",
+      "actor_student_id": "UNKNOWN",
+      "action": "read_student_memory",
+      "target_student_id": "AIDTM001",
+      "status": "DENIED",
+      "details": {}
+    },
+    {
+      "audit_id": "AUD-B24174C96A",
+      "timestamp": "2026-10-31T23:06:36",
+      "actor_student_id": "UNKNOWN",
+      "action": "read_student_memory",
+      "target_student_id": "AIDTM001",
+      "status": "DENIED",
+      "details": {}
+    },
+    {
+      "audit_id": "AUD-00ACD71F90",
+      "timestamp": "2026-10-31T23:06:38",
+      "actor_student_id": "AIDTM001",
+      "action": "read_fee_record",
+      "target_student_id": "AIDTM002",
+      "status": "DENIED",
+      "details": {
+        "reason": "cross_student_access"
+      }
+    },
+    {
+      "audit_id": "AUD-076301A4BB",
+      "timestamp": "2026-10-31T23:07:13",
+      "actor_student_id": "UNKNOWN",
+      "action": "read_student_memory",
+      "target_student_id": "AIDTM001",
+      "status": "DENIED",
+      "details": {}
+    },
+    {
+      "audit_id": "AUD-A3F9738EEC",
+      "timestamp": "2026-10-31T23:07:14",
+      "actor_student_id": "AIDTM001",
+      "action": "request_contact_update",
+      "target_student_id": "AIDTM001",
+      "status": "PENDING_APPROVAL",
+      "details": {
+        "request_id": "APR-321E60553F",
+        "field": "mobile_number"
+      }
+    },
+    {
+      "audit_id": "AUD-73CA7CA1E7",
+      "timestamp": "2026-10-31T23:18:51",
+      "actor_student_id": "UNKNOWN",
+      "action": "read_student_memory",
+      "target_student_id": "AIDTM001",
+      "status": "DENIED",
+      "details": {}
+    },
+    {
+      "audit_id": "AUD-DA557B67CF",
+      "timestamp": "2026-10-31T23:19:10",
+      "actor_student_id": "UNKNOWN",
+      "action": "read_student_memory",
+      "target_student_id": "AIDTM001",
+      "status": "DENIED",
+      "details": {}
+    },
+    {
+      "audit_id": "AUD-A012223599",
+      "timestamp": "2026-10-31T23:19:24",
+      "actor_student_id": "AIDTM001",
+      "action": "decide_contact_update",
+      "target_student_id": "AIDTM001",
+      "status": "REJECTED_NOT_EXECUTED",
+      "details": {
+        "request_id": "APR-321E60553F",
+        "field": "mobile_number"
+      }
+    },
+    {
+      "audit_id": "AUD-91CAD28E77",
+      "timestamp": "2026-10-31T23:22:20",
+      "actor_student_id": "UNKNOWN",
+      "action": "read_student_memory",
+      "target_student_id": "AIDTM001",
+      "status": "DENIED",
+      "details": {}
+    },
+    {
+      "audit_id": "AUD-AC750EDF26",
+      "timestamp": "2026-10-31T23:22:21",
+      "actor_student_id": "AIDTM001",
+      "action": "request_contact_update",
+      "target_student_id": "AIDTM001",
+      "status": "PENDING_APPROVAL",
+      "details": {
+        "request_id": "APR-3F9806D047",
+        "field": "mobile_number"
+      }
+    },
+    {
+      "audit_id": "AUD-D1F3C37678",
+      "timestamp": "2026-10-31T23:22:27",
+      "actor_student_id": "AIDTM001",
+      "action": "execute_contact_update",
+      "target_student_id": "AIDTM001",
+      "status": "APPROVED_AND_EXECUTED",
+      "details": {
+        "request_id": "APR-3F9806D047",
+        "field": "mobile_number",
+        "changed": true
+      }
+    },
+    {
+      "audit_id": "AUD-5DFD8487FD",
+      "timestamp": "2026-10-31T23:23:21",
+      "actor_student_id": "UNKNOWN",
+      "action": "read_student_memory",
+      "target_student_id": "AIDTM001",
+      "status": "DENIED",
+      "details": {}
+    },
+    {
+      "audit_id": "AUD-DE17D1FF4A",
+      "timestamp": "2026-10-31T23:23:22",
+      "actor_student_id": "AIDTM001",
+      "action": "request_contact_update",
+      "target_student_id": "AIDTM001",
+      "status": "PENDING_APPROVAL",
+      "details": {
+        "request_id": "APR-51EC89C89B",
+        "field": "email"
+      }
+    },
+    {
+      "audit_id": "AUD-56E672FE2B",
+      "timestamp": "2026-10-31T23:23:31",
+      "actor_student_id": "AIDTM001",
+      "action": "decide_contact_update",
+      "target_student_id": "AIDTM001",
+      "status": "REJECTED_NOT_EXECUTED",
+      "details": {
+        "request_id": "APR-51EC89C89B",
+        "field": "email"
+      }
+    },
+    {
+      "audit_id": "AUD-9BCE747EF5",
+      "timestamp": "2026-10-31T23:25:16",
+      "actor_student_id": "UNKNOWN",
+      "action": "read_student_memory",
+      "target_student_id": "AIDTM001",
+      "status": "DENIED",
+      "details": {}
+    },
+    {
+      "audit_id": "AUD-ABEE552CE1",
+      "timestamp": "2026-10-31T23:27:10",
+      "actor_student_id": "UNKNOWN",
+      "action": "read_student_memory",
+      "target_student_id": "AIDTM001",
+      "status": "DENIED",
+      "details": {}
+    },
+    {
+      "audit_id": "AUD-EDA2CF1056",
+      "timestamp": "2026-10-31T23:27:11",
+      "actor_student_id": "AIDTM001",
+      "action": "request_contact_update",
+      "target_student_id": "AIDTM001",
+      "status": "PENDING_APPROVAL",
+      "details": {
+        "request_id": "APR-62D7012A3B",
+        "field": "mobile_number"
+      }
+    },
+    {
+      "audit_id": "AUD-62BE5203EA",
+      "timestamp": "2026-10-31T23:27:18",
+      "actor_student_id": "AIDTM001",
+      "action": "execute_contact_update",
+      "target_student_id": "AIDTM001",
+      "status": "APPROVED_AND_EXECUTED",
+      "details": {
+        "request_id": "APR-62D7012A3B",
+        "field": "mobile_number",
+        "changed": true
+      }
+    }
+  ]
+}
