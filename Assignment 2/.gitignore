@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.streamlit/secrets.toml
+.DS_Store
+data/chat_history.json
+data/chat_history.corrupt-*.json
+data/*.tmp
+
+data/students.json
+data/student_memory.json
+data/support_requests.json
+data/agent_traces.json
