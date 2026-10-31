@@ -1,0 +1,90 @@
+{
+  "773a4b59a696": {
+    "id": "773a4b59a696",
+    "student_id": "AIDTM001",
+    "title": "What is my fee status?",
+    "created_at": "2026-10-31T21:41:01.506973",
+    "updated_at": "2026-10-31T21:48:17.403043",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is my fee status?",
+        "timestamp": "2026-10-31T21:41:01.506978"
+      },
+      {
+        "role": "assistant",
+        "content": "Your fee status:\n\n- **Programme:** PGDM Big Data Analytics  \n- **Total fee:** ₹10,50,000  \n- **Paid:** ₹7,00,000  \n- **Pending:** ₹3,50,000  \n- **Status:** Partially Paid  \n\nIf you need help with payment or want to raise a support request, just let me know.",
+        "timestamp": "2026-10-31T21:41:03.438637"
+      },
+      {
+        "role": "user",
+        "content": "My payment portal failed on the fee payment due date. Can I pay on the next working day ?",
+        "timestamp": "2026-10-31T21:45:51.278424"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes—you can complete the payment on the next working day, as long as you report the portal failure before the original due‑date deadline.\n\n**What to do:**\n- Keep a screenshot of the error, the transaction/reference number, and the date‑time of the failed attempt.  \n- Raise a support request with those details before the due date passes.  \n- If any amount was debited, do **not** retry the payment until the transaction is verified.  \n\nLet me know if you’d like me to create a support ticket for this issue.",
+        "timestamp": "2026-10-31T21:45:53.718102"
+      },
+      {
+        "role": "user",
+        "content": "I am facing an issue with my student fee payment. Please create a support request for me and confirm whether it has been successfully submitted.",
+        "timestamp": "2026-10-31T21:47:14.333407"
+      },
+      {
+        "role": "assistant",
+        "content": "Your support request has been recorded.\n\n- **Ticket ID:** AIDTM-821EB5CB  \n- **Category:** Fee Payment Issue  \n- **Status:** Open",
+        "timestamp": "2026-10-31T21:47:16.494804"
+      },
+      {
+        "role": "user",
+        "content": "Please remember that my programme is PGDM in Big Data Analytics. I prefer explanations in simple English.",
+        "timestamp": "2026-10-31T21:48:15.026147"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it—your programme is PGDM in Big Data Analytics, and I’ll keep explanations simple. Let me know if you need anything else!",
+        "timestamp": "2026-10-31T21:48:17.403036"
+      }
+    ]
+  },
+  "70d0f7f89426": {
+    "id": "70d0f7f89426",
+    "student_id": "AIDTM001",
+    "title": "What information do you currently re…",
+    "created_at": "2026-10-31T21:49:25.110825",
+    "updated_at": "2026-10-31T21:52:23.435803",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What information do you currently remember about me?",
+        "timestamp": "2026-10-31T21:49:25.110832"
+      },
+      {
+        "role": "assistant",
+        "content": "I have stored the following detail about you:\n\n- Programme: **PGDM in Big Data Analytics**",
+        "timestamp": "2026-10-31T21:49:27.590105"
+      },
+      {
+        "role": "user",
+        "content": "Does AIDTM provide a 100% scholarship for students who score above 90% in every semester? Please share the exact eligibility criteria and application deadline.",
+        "timestamp": "2026-10-31T21:50:57.919732"
+      },
+      {
+        "role": "assistant",
+        "content": "I’m sorry, but I don’t have the specific details on a 100 % scholarship’s eligibility criteria or its application deadline. You can find the most up‑to‑date scholarship information on the AIDTM admissions page or by contacting the admissions office directly.",
+        "timestamp": "2026-10-31T21:51:00.044357"
+      },
+      {
+        "role": "user",
+        "content": "What is the difference between Artificial Intelligence, Machine Learning, and Deep Learning? Explain with simple examples.",
+        "timestamp": "2026-10-31T21:52:20.699398"
+      },
+      {
+        "role": "assistant",
+        "content": "**Artificial Intelligence (AI)**  \n- Broad field that aims to make machines behave intelligently.  \n- Example: A virtual assistant (like Siri) that can understand voice commands, set reminders, and answer questions.\n\n**Machine Learning (ML)**  \n- A subset of AI where computers learn patterns from data instead of being explicitly programmed.  \n- Example: An email filter that learns to label messages as “spam” or “not spam” by analyzing thousands of past emails.\n\n**Deep Learning (DL)**  \n- A subset of ML that uses multi‑layered neural networks to model complex patterns.  \n- Example: An image‑recognition system that can identify cats, dogs, and cars in photos by processing millions of labeled images.",
+        "timestamp": "2026-10-31T21:52:23.435796"
+      }
+    ]
+  }
+}

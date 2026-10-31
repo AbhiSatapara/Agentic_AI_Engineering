@@ -1,0 +1,38 @@
+{
+  "notice": "DEMO DATA ONLY. Replace with authorized institute records before any real use. Do not use this file as production authentication.",
+  "students": [
+    {
+      "student_id": "AIDTM001",
+      "name": "Abhi Satapara",
+      "programme": "PGDM Big Data Analytics",
+      "batch": "2025-27",
+      "total_fee": 1050000,
+      "paid_fee": 700000,
+      "pending_fee": 350000,
+      "fee_status": "Partially Paid",
+      "payment_history": [
+        {
+          "date": "2026-07-15",
+          "amount": 700000,
+          "status": "Successful",
+          "transaction_id": "DEMO-TXN-1001"
+        }
+      ],
+      "password_salt": "c94aa7c09e80f0c0b8336bf04cd222f8",
+      "password_hash": "4c3ef87d64f1a98e3c4bc95c0664fca6d8c6deb642fa68510011d67296f85721"
+    },
+    {
+      "student_id": "AIDTM002",
+      "name": "Chirag Patel",
+      "programme": "PGDM AI and Data Science",
+      "batch": "2025-27",
+      "total_fee": 1050000,
+      "paid_fee": 1050000,
+      "pending_fee": 0,
+      "fee_status": "Fully Paid",
+      "payment_history": [],
+      "password_salt": "154186b35335340107f27d3c9b16ccfd",
+      "password_hash": "f2da40f80de82d8ade6138560aa3fbc79cfcb3f03176dba667ec60b68bb68e15"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "requests": [
+    {
+      "ticket_id": "AIDTM-821EB5CB",
+      "student_id": "AIDTM001",
+      "issue": "Student fee payment portal failure on due date; needs assistance with payment processing.",
+      "category": "Fee Payment Issue",
+      "status": "Open",
+      "created_at": "2026-10-31T21:47:15"
+    }
+  ]
+}
