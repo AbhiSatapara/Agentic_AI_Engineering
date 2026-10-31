@@ -1,0 +1,57 @@
+[
+  {
+    "id": "curriculum-bda",
+    "title": "PGDM in Big Data Analytics: subjects and credit system",
+    "category": "Curriculum",
+    "content": "AIDTM uses a credit system: one credit equals 10 in-class contact hours. A 3-credit course involves around 100 hours of effort, of which 30 hours are in the classroom and the rest is for assignments, preparation and learning beyond the classroom.\n### Subjects (PGDM in Big Data Analytics)\nData Analysis using SQL\nEnterprise Data Visualisation\nExpress, Impress, Managers Impact\nHR Analytics\nFundamentals of Finance\nIntroduction to Big Data Analytics\nStatistical Learning\nIntroduction to Machine Learning\nProfessional Communicative English\nMarketing Management\nPython for Data Science\nDeep Learning\nStatistics for Data Analytics using Excel\nImage Processing using Python\nCloud Computing\nAnalytical Insights into Networking, Cyber Security, and Fraud Detection\nData Exploration & Visualisation using Python\nNoSQL Database\nThe Apply Admission page also lists \"Data Driven Decision Making\" among the course curriculum highlights for this programme.\nThe page lists these subjects without saying which term each one belongs to.",
+    "source_url": "https://www.aidtm.ac.in/academics/pgdm-big-data-analytics",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "bda",
+      "subjects",
+      "syllabus",
+      "curriculum",
+      "courses",
+      "credits",
+      "modules"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "curriculum-aids",
+    "title": "PGDM in AI & Data Science: subjects and credit system",
+    "category": "Curriculum",
+    "content": "AIDTM uses a credit system: one credit equals 10 in-class contact hours. A 3-credit course involves around 100 hours of effort, of which 30 hours are in the classroom and the rest is for assignments, preparation and beyond-classroom learning.\n### Subjects (PGDM in AI & Data Science)\nMathematical Foundations for AI & DS\nData Science and Big Data Technologies\nFoundation AI & ML\nStatistical Learning\nExploratory Data Analysis\nMachine Learning\nDeep Learning\nGen-AI & Large Language Models\nData Engineering\nData Intelligence and Analytics\nReinforcement Learning\nNatural Language Processing\nComputer Vision\nInternet of Things (IoT)\nData Analysis Tools\nBusiness Management\nCloud Computing Essentials\nPrompt Engineering\nSpeech Recognition\nProfessional Communicative English\nThe page lists these subjects without saying which term each one belongs to.",
+    "source_url": "https://www.aidtm.ac.in/academics/pgdm-ai-data-science",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "aids",
+      "subjects",
+      "syllabus",
+      "curriculum",
+      "courses",
+      "credits",
+      "modules"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "curriculum-epaaa",
+    "title": "EPAAA: tools, curriculum modules and learning outcomes",
+    "category": "Curriculum",
+    "content": "### Tools & Techniques Covered\nMicrosoft Excel: analysis, modelling and reporting for business analytics and decision support.\nPower BI: business intelligence and data visualization, turning raw data into interactive dashboards and reports.\nPower Apps: a low-code platform to build and deploy custom enterprise applications.\nPower Automate: workflow automation across business processes.\nAI Builder: adds AI features such as prediction, form processing and text recognition to low-code applications and workflows.\nMicrosoft Copilot: generative AI assistance for reporting, analysis, forecasting and decision support.\n### The Curriculum\nKey modules: Decision Science & Analytics Thinking; Forecasting & Operational Excellence; Power BI for Decision Intelligence; AI for Enterprise; Power Apps - Low-Code Enterprise Solutions; Power Automate & Workflow Engineering; AI Builder & Intelligent Automation.\n### Learning Outcomes\nAnalyze business problems and evaluate decision alternatives using data-driven frameworks; apply statistical methods and forecasting models; design KPI frameworks aligned with business objectives; build interactive dashboards; apply no-code AI tools to business problems; evaluate process optimization opportunities; build and deploy low-code business applications; design automated workflows; integrate AI capabilities into applications and workflows; explain and evaluate ethical, governance and risk considerations in AI deployment.",
+    "source_url": "https://www.aidtm.ac.in/academics/executive-program-ai-analytics-automation",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "epaaa",
+      "executive",
+      "curriculum",
+      "modules",
+      "subjects",
+      "tools",
+      "power bi",
+      "learning outcomes"
+    ],
+    "managed_by": "ingestion"
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "id": "placements-highlights",
+    "title": "Placement highlights (from the Apply page)",
+    "category": "Placements",
+    "content": "### Placement Highlights (Apply page)\n100% Placements\n20 LPA Highest CTC\n8 LPA Average CTC\n90% Pre Placement Offers\nNote: the Placement page of the same website labels the 8 LPA figure as \"Lowest CTC\" instead of \"Average CTC\".\nThe page also says the cohort spans freshers (60%) and experienced professionals (40%).",
+    "source_url": "https://www.aidtm.ac.in/apply-admission",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "placement",
+      "placements",
+      "ctc",
+      "package",
+      "salary",
+      "average",
+      "highest",
+      "pre placement offers",
+      "ppo"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "placements-overview",
+    "title": "Placements at AIDTM: key numbers",
+    "category": "Placements",
+    "content": "100% Placements\n20 LPA Highest CTC\n8 LPA Lowest CTC (the Apply page calls this figure \"Average CTC\")\n90% Preplacement Offers\nThe homepage also shows \"100% Placement Record\" and \"10 Months Internship + Capstone\".",
+    "source_url": "https://www.aidtm.ac.in/Placement",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "placement",
+      "placements",
+      "ctc",
+      "package",
+      "salary",
+      "highest",
+      "lowest",
+      "pre placement offers",
+      "ppo",
+      "100%"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "placements-internship-capstone",
+    "title": "Summer internship programme and capstone project",
+    "category": "Placements",
+    "content": "### Summer Internship Program\nAIDTM sees summer internships as practical avenues of knowledge and learning. When students pursue job placements after the PGDM, the interview questions are mostly on the internship report drafted by the student. The summer internship opportunities focus on hands-on learning with top-notch organisations and give students a glimpse into the corporate world.\n### Capstone Project\nAIDTM designs capstone projects that encourage students to think critically and solve challenging problems. The projects are interdisciplinary, so students apply skills across different domains of knowledge. A capstone follows a framework: determining a topic, doing a literature/documentation review, formulating a thesis and presenting the research.",
+    "source_url": "https://www.aidtm.ac.in/Placement",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "internship",
+      "sip",
+      "summer internship",
+      "capstone",
+      "project",
+      "placement"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "placements-profiles-roles",
+    "title": "Student backgrounds, industries and roles offered",
+    "category": "Placements",
+    "content": "### Academic Diversity\nStudents come from B.Com, BBA, BE, B.Tech, B.Sc., BCA, B.A. and B.Voc. backgrounds.\n### Widely Adopted Across Industries\nData Analytics & Consulting; Ports, Logistics & Transportation; Manufacturing & Engineering; Renewable Energy & CleanTech; AI & Technology; Healthcare; IT & Technology; Financial Services; FMCG; Automotive\n### Roles Offered\nData Analyst; Data Scientist; Business Analyst; Business Consultant; Technical Support Associate; Management Trainee (Digital Transformation); Business Support Analyst; Project Management Coordinator; Executive (HR Analytics); Community Manager (Operations); Consultant (Strategy); Trainee - EA (COO's Office); AI Strategies & Analytics Manager",
+    "source_url": "https://www.aidtm.ac.in/Placement",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "roles",
+      "jobs",
+      "industries",
+      "background",
+      "b.com",
+      "bba",
+      "be",
+      "b.tech",
+      "bca",
+      "placement"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "placements-industry-visits",
+    "title": "Industry visits and placement report",
+    "category": "Placements",
+    "content": "Industrial visits give students an understanding of the internal operations of companies and a practical perspective on corporate structure, working methods and employment practices. They give exposure to current work applications relevant to the chosen course, and chances to interact with high-profile professionals and learn business networking.\nA Placement Report for Batch 2023-25 is available as a downloadable document on the Placement page.",
+    "source_url": "https://www.aidtm.ac.in/Placement",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "industry visits",
+      "industrial visits",
+      "placement report",
+      "exposure"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "placements-recruiters",
+    "title": "Leading recruiters",
+    "category": "Placements",
+    "content": "### Leading Recruiters\nAdani, E & Y, KPMG, Tech Mahindra, Bombardier, Deloitte, LinkedIn, Infosys, Panasonic Life Solutions, Crayon Data, TCS, CRISIL, Wipro, P & G, Sophos, HDFC, Dell, Tiger Analytics",
+    "source_url": "https://www.aidtm.ac.in/Placement",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "recruiters",
+      "companies",
+      "placement",
+      "hiring",
+      "adani",
+      "kpmg",
+      "deloitte",
+      "tcs"
+    ],
+    "managed_by": "ingestion"
+  }
+]

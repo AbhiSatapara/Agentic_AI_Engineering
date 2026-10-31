@@ -1,0 +1,19 @@
+[
+  {
+    "id": "faculty-list",
+    "title": "AIDTM faculty members",
+    "category": "Faculty",
+    "content": "### Faculty\nDr. Rama Moondra | Dean - AIDTM\nDr. Ankit Shah | PGP Chair & Professor (Big Data Analytics)\nDr. Roshni Rawal | Associate Professor (Soft Skills & Communication)\nDr. Manjari Mundanad | Assistant Professor (Marketing and Statistics)\nDr. Bhaveshkumar Dharmani | Professor, AI & Data Science\nMr. Vyankatesh Emche | Assistant Professor\nMr. Utkarsh Sharma | Visiting Professor (Big Data Analytics)\nDr. Nitin Chanderwal | Visiting Professor (Associate Professor, University of Cincinnati, USA | Ph.D. in Computer Science & Engineering)\nIndividual faculty profiles are on separate pages of the website and are not included here.",
+    "source_url": "https://www.aidtm.ac.in/faculty",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "faculty",
+      "professor",
+      "dean",
+      "teachers",
+      "teaching staff",
+      "who teaches"
+    ],
+    "managed_by": "ingestion"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "scenario-payment-portal-failure-001",
+  "title": "Payment Portal Failure – Student Support Procedure",
+  "policy_type": "illustrative_assignment_scenario",
+  "notice": "This is a sample policy created only for the Agentic AI Engineering assignment scenario. It is not an officially approved AIDTM policy. Confirm and replace it with institute-approved wording before any real deployment.",
+  "rules": [
+    {
+      "rule_id": "PAY-01",
+      "topic": "Portal failure on or before the payment due date",
+      "rule": "If a student is unable to complete a fee payment because the payment portal is unavailable or returns a technical error, the student may complete the payment on the next working day, provided the issue is reported before the original due-date deadline."
+    },
+    {
+      "rule_id": "PAY-02",
+      "topic": "Evidence of failed payment",
+      "rule": "The student should retain a screenshot of the error, the transaction/reference number, and the date and time of the failed attempt. The student should include these details when raising a support request."
+    },
+    {
+      "rule_id": "PAY-03",
+      "topic": "Late fee during verified portal outage",
+      "rule": "A late fee should not be applied for the approved next-working-day window when the portal failure is verified from the submitted evidence."
+    },
+    {
+      "rule_id": "PAY-04",
+      "topic": "Amount debited but payment status failed or pending",
+      "rule": "The student should not immediately retry the payment. The transaction should first be checked using its reference number to avoid duplicate payment."
+    },
+    {
+      "rule_id": "PAY-05",
+      "topic": "Issue reported after the due date",
+      "rule": "If the student reports the portal failure only after the due-date deadline, the next-working-day arrangement is not automatic. The case requires review by the authorised accounts team."
+    }
+  ],
+  "student_guidance": [
+    "Keep a screenshot of the portal error.",
+    "Save the transaction/reference number and note the date and time of the failed attempt.",
+    "Raise a support request before the original payment deadline.",
+    "If money was debited, do not retry until the transaction status is checked."
+  ],
+  "student_facing_summary": "If the payment portal fails on or before the due date, you may complete the payment on the next working day, provided you report the issue before the due-date deadline and retain proof of the failed attempt. If money has already been debited, do not make another payment until the transaction status is checked."
+}

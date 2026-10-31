@@ -1,0 +1,121 @@
+[
+  {
+    "id": "admission-epaaa",
+    "title": "EPAAA: who can apply and how to apply",
+    "category": "Admissions",
+    "content": "### Who Can Apply?\nBachelor's or master's degree in any discipline. No pre-requisite programming skills.\n### How to Apply?\nFill the registration form for the Executive Program in AI, Analytics & Automation (link on the programme page); you will hear from AIDTM; then pay the fee and confirm enrolment.\nContact: Mr. Alok Giri - 8851223902, or write to exedu@aidtm.ac.in",
+    "source_url": "https://www.aidtm.ac.in/academics/executive-program-ai-analytics-automation",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "epaaa",
+      "executive",
+      "eligibility",
+      "apply",
+      "admission",
+      "registration",
+      "contact"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "admission-overview",
+    "title": "Admissions for PGDM Batch 2027-29: overview and selection",
+    "category": "Admissions",
+    "content": "### Inviting Application for Batch 2027-29\nAIDTM's 2 flagship programs, PGDM (Big Data Analytics) and PGDM (AI & Data Science), are built to meet the needs of the industry with a bottom-up approach that helps learners grasp the core concepts of Big Data Analytics and Technology Management. Both courses expose students to trending advanced tools and technologies such as Big Data Analytics, Artificial Intelligence & Machine Learning, Cloud Computing, Deep Learning, R / Python, Internet of Things, Statistical Modelling, Data Visualization, Cyber Security, Blockchain Technology, etc.\nDocuments listed on the Admissions page: Admission Policy (2027-29), PGDM Brochure (2026), and a Merit-Based Scholarship policy document. Their contents are PDF files and are not included here.\n### Selection Process\nEach applicant to the PGDM programme is holistically evaluated on several parameters. The parameters are shown as an image on the website and are not available as text.\nOnline application: https://www.aidtm.ac.in/apply-admission",
+    "source_url": "https://www.aidtm.ac.in/admission",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "admission",
+      "admissions",
+      "apply",
+      "batch 2027-29",
+      "selection",
+      "scholarship",
+      "brochure",
+      "policy"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "admission-calendar",
+    "title": "Admission calendar and important dates",
+    "category": "Admissions",
+    "content": "### Admission Calendar\n1 | Availability of online Application Forms at https://www.aidtm.ac.in/apply-admission and the Admission Office, AIDTM | 15-Oct-26 onwards\n2 | Last Date of Receiving Filled-in Applications | As Per AICTE Norms\n3 | PI (personal interview) Rounds for shortlisted Applicants | On rolling basis\n4 | Release of Admission Offers to Selected Candidates | On rolling basis\n5 | Last Date for Payment of Commitment Fees to Secure Admission | Within 10 days after receiving the offer\nNote: any changes to the dates are at the discretion of the AIDTM Admission Committee. Applicants are advised to check the institute website regularly.",
+    "source_url": "https://www.aidtm.ac.in/admission",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "admission",
+      "dates",
+      "calendar",
+      "deadline",
+      "last date",
+      "application form",
+      "commitment fee"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "admission-application-guidelines",
+    "title": "Application guidelines and documents needed",
+    "category": "Admissions",
+    "content": "Please register using a personal Email ID and Mobile Number.\nThe Email ID submitted at registration is used for all correspondence until enrolment is completed. A change in Email ID is NOT permitted under any circumstances.\nThe Application Form Fee is non-refundable.\nKeep these documents ready before filling in the application form:\n- Latest passport-size photograph and a scanned copy of your signature (preferably under 2 MB).\n- Scanned copies of Xth, XIIth and Graduation documents. The candidate is responsible for providing accurate academic information.\n- Work experience details (if any).\nApply online: https://www.aidtm.ac.in/apply-admission",
+    "source_url": "https://www.aidtm.ac.in/apply-admission",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "apply",
+      "application",
+      "guidelines",
+      "documents",
+      "registration",
+      "photograph",
+      "marksheet"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "admission-eligibility-bda",
+    "title": "Eligibility criteria: PGDM in Big Data Analytics",
+    "category": "Admissions",
+    "content": "### Eligibility Criteria (PGDM in Big Data Analytics)\nValid national-level entrance test score as per AICTE norms (CAT / XAT / CMAT / GMAT / MAT / ATMA).\nBachelor's degree with a minimum of 50% marks (45% for reserved categories) from a recognized university.\nFinal-year graduation students are eligible to apply.\nWork experience is not mandatory, but relevant experience offers an added advantage.",
+    "source_url": "https://www.aidtm.ac.in/apply-admission",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "bda",
+      "eligibility",
+      "requirements",
+      "criteria",
+      "admission",
+      "cat",
+      "xat",
+      "cmat",
+      "gmat",
+      "mat",
+      "atma",
+      "percentage"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "admission-eligibility-aids",
+    "title": "Eligibility criteria: PGDM in AI & Data Science",
+    "category": "Admissions",
+    "content": "### Eligibility Criteria (PGDM in AI & Data Science)\nValid national-level entrance test score as per AICTE guidelines (CAT / XAT / CMAT / GMAT / MAT / ATMA).\nBachelor's degree in BE/B.Tech/M.Tech, B.Sc/M.Sc (IT, Computer Science, Data Science, AI, Cybersecurity, Software Engineering), BCA/MCA, or M.Sc (Maths/Statistics) with minimum 50% marks (45% for reserved categories) from a recognized university.\nFinal-year graduation students are eligible to apply.\nWork experience is not mandatory, but relevant experience offers an added advantage.",
+    "source_url": "https://www.aidtm.ac.in/apply-admission",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "aids",
+      "eligibility",
+      "requirements",
+      "criteria",
+      "admission",
+      "cat",
+      "xat",
+      "cmat",
+      "gmat",
+      "mat",
+      "atma",
+      "percentage"
+    ],
+    "managed_by": "ingestion"
+  }
+]

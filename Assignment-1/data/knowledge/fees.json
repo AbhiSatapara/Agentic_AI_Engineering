@@ -1,0 +1,61 @@
+[
+  {
+    "id": "fees-epaaa",
+    "title": "EPAAA: highlights, duration, start date and fee",
+    "category": "Fees",
+    "content": "### Program Highlights & Fees (EPAAA)\nProgram Duration | 6 Months\nProgram Begins | 25 July 2026\nLearning Hours | 90 Hours\nOnline Classes | 75 Hours (Sat - 3 hours / week)\nCampus Immersion | 15 Hours (2 Days)\nNumber of Online Sessions | 25 Sessions\nWho should attend | Working professional after Graduation\nProgram Fee | INR 50,000 + GST (18%)",
+    "source_url": "https://www.aidtm.ac.in/academics/executive-program-ai-analytics-automation",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "epaaa",
+      "executive",
+      "fee",
+      "fees",
+      "duration",
+      "start date",
+      "gst"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "fees-pgdm-first-table",
+    "title": "PGDM fee structure (first table on the Admissions page, not labelled with a batch)",
+    "category": "Fees",
+    "content": "### Fee Structure (first table on the Admissions page; the page does not say which batch it is for)\nParticulars | Date | Amount (INR) | Caution Deposit (INR) | Total Fees (INR)\nRegistration Fees | Payable upon acceptance of the Admission Offer Letter | Rs. 2,00,000 | - | Rs. 2,00,000\n1st Installment | Latest by July 15, 2026 | Rs. 2,00,000 | Rs. 50,000 | Rs. 2,50,000\n2nd Installment | Latest by January 15, 2027 | Rs. 2,00,000 | - | Rs. 2,00,000\n3rd Installment | Latest by July 15, 2027 | Rs. 2,00,000 | - | Rs. 2,00,000\n4th Installment | Latest by January 15, 2028 | Rs. 2,00,000 | - | Rs. 2,00,000\nTotal Program Fee for Two Years | Rs. 10,00,000 | Rs. 50,000 | Rs. 10,50,000",
+    "source_url": "https://www.aidtm.ac.in/admission",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "fee",
+      "fees",
+      "pgdm",
+      "installment",
+      "registration fee",
+      "caution deposit",
+      "total fee",
+      "bda",
+      "aids"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "fees-pgdm-batch-2027-29",
+    "title": "Fee structure for PGDM (BDA) and PGDM (AI & DS), Batch 2027-29",
+    "category": "Fees",
+    "content": "### Fee Structure for PGDM (BDA) & PGDM (AI & DS) Batch 2027-29\nParticulars | Date | Amount (INR) | Caution Deposit (INR) | Total Fees (INR)\nRegistration Fees | Payable upon acceptance of the Admission Offer Letter | Rs. 2,00,000 | - | Rs. 2,00,000\n1st Installment | Latest by July 15, 2027 | Rs. 2,00,000 | Rs. 50,000 | Rs. 2,50,000\n2nd Installment | Latest by January 15, 2028 | Rs. 2,00,000 | - | Rs. 2,00,000\n3rd Installment | Latest by July 15, 2028 | Rs. 2,00,000 | - | Rs. 2,00,000\n4th Installment | Latest by January 15, 2029 | Rs. 2,00,000 | - | Rs. 2,00,000\nTotal Program Fee for Two Years | Rs. 10,00,000 | Rs. 50,000 | Rs. 10,50,000\nNote: any changes to these dates are at the discretion of the AIDTM Admission Committee. Applicants are advised to check the institute website regularly.",
+    "source_url": "https://www.aidtm.ac.in/admission",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "fee",
+      "fees",
+      "pgdm",
+      "installment",
+      "registration fee",
+      "caution deposit",
+      "total fee",
+      "batch 2027-29",
+      "bda",
+      "aids"
+    ],
+    "managed_by": "ingestion"
+  }
+]

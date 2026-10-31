@@ -1,0 +1,103 @@
+[
+  {
+    "id": "about-overview",
+    "title": "About AIDTM",
+    "category": "About AIDTM",
+    "content": "At Adani Institute of Digital Technology Management (AIDTM), the need to bridge the gap between pioneering ideas and futuristic, technology-driven innovation is met by a state-of-the-art campus, learned faculty and, most importantly, Summer Internships, on-the-job training, capstone projects and placements at the best tech organisations.\nData science and digital technology are revolutionising the performance of every organisation and society. With everything being digital data, organisations now have decision-making processes that are distinct and data driven.\nAIDTM was established in the year 2020, with the core aim of creating continuously employable professionals in the field of Big Data Analytics and AI & Data Science. Students from non-tech backgrounds also learn about unknown correlations, market trends and customer preferences that help organisations make better decisions and prevent fraudulent activities.\nBig Data Analytics helps in building reliable, robust and inexpensive solutions and strengthens decision-making by using predictive, descriptive and prescriptive analytics.\nAI & Data Science focuses on Machine Learning, Deep Learning, Reinforcement Learning, Natural Language Processing (NLP), Computer Vision, Explainable AI, Gen-AI, and integrating AI with Big Data & Cloud Technologies.\nAIDTM is inspired and guided by esteemed leaders known for their vision, achievements and charisma.",
+    "source_url": "https://www.aidtm.ac.in/about-us",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "aidtm",
+      "college",
+      "institute",
+      "established",
+      "2020",
+      "overview",
+      "bda",
+      "aids"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "about-vision-mission",
+    "title": "AIDTM vision and mission",
+    "category": "About AIDTM",
+    "content": "### Vision:\nTo emerge as an international center of excellence in the field of data science and digital technology. To create the best talent helping to shape the future of India.\n### Mission:\nTo develop/create an international Institute to ensure that data science and digital technology are for everyone.",
+    "source_url": "https://www.aidtm.ac.in/about-us",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "vision",
+      "mission",
+      "aidtm"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "about-adani-group",
+    "title": "About the Adani Group",
+    "category": "About AIDTM",
+    "content": "Adani Group is one of India's largest integrated infrastructure conglomerates with interests in Resources (coal mining and trading), Logistics (ports, logistics, shipping, and rail), Energy (renewable and thermal power generation, transmission, and distribution), Agro (commodities, edible oil, food products, cold storage, and grain silos), Real Estate, Public Transport Infrastructure, Consumer Finance, and Defence.\nThe Group owes its success and leadership position to its core philosophy of 'Nation Building' and 'Growth with Goodness', a guiding principle for sustainable growth. It is committed to protecting the environment and improving communities through its CSR programme based on sustainability, diversity and shared values.\nAdani has been the vanguard of transposing the conduct of education by creating an infrastructure management institute and an engineering institute along with a Medical College.",
+    "source_url": "https://www.aidtm.ac.in/about-us",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "adani",
+      "group",
+      "nation building",
+      "growth with goodness"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "about-team",
+    "title": "AIDTM team (administration and support staff)",
+    "category": "About AIDTM",
+    "content": "The AIDTM team listed on the About Us page:\nMr. Saurin Gandhi | General Manager, Adani Group\nMr. Ritesh Soni | Head - Operations\nMr. Aakash Singh | Manager - Executive Education\nMs. Anshita Mulchandani | Admission Manager\nMr. Bhavesh Panchal | Assistant Manager - HR & Admin\nMr. Ashok Rupera | Assistant Manager - Accounts\nMr. Shatrughan Kumar | Assistant Manager - Outreach\nMr. Alok Giri | Assistant Manager, Executive Education & Outreach\nMr. Jay Joshi | Programme Officer\nMs. Raksha Desai | Sr. Admission Counsellor\nMr. Kathan Joshi | Graphic Designer\nMr. Chetas Bhagat | Assistant Librarian\nMr. Parth Patel | Academic associate\nMr. Sneh Sheth | Academic associate\nMr. Jignesh Parekh | IT Officer\nAlso introduced on the page: Ms. Urvi Shah (Program Manager), Nidhi Shrimm (Manager - Outreach & Admissions), Ms. Chhaya Bharadwaj (Sr Admission Counsellor), Mr. Akshay Modi (Sr. Graphics Designer and Social Media Manager), Mr. Sagar Suthar (Assistant Manager HR).",
+    "source_url": "https://www.aidtm.ac.in/about-us",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "team",
+      "staff",
+      "administration",
+      "admission manager",
+      "counsellor",
+      "librarian"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "about-statutory-documents",
+    "title": "Statutory documents and committees",
+    "category": "About AIDTM",
+    "content": "Statutory documents published on the About Us page (as downloadable documents):\nAICTE Approval\nAnti-Ragging Committee\nGrievance Redressal Cell\nWomen Development Cell\nSC/ST Cell\nMandatory Disclosure",
+    "source_url": "https://www.aidtm.ac.in/about-us",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "aicte",
+      "approval",
+      "anti-ragging",
+      "grievance",
+      "women development",
+      "sc/st",
+      "mandatory disclosure"
+    ],
+    "managed_by": "ingestion"
+  },
+  {
+    "id": "about-contact",
+    "title": "Contact details and address",
+    "category": "About AIDTM",
+    "content": "Adani Institute of Digital Technology Management\n(A Constituent of Jeevanjyoti Education and Research Foundation)\nAddress: Opp. Maharaj Hotel Lane, Sarkhej - Gandhinagar Highway, PO: Jamiyatpura, Gandhinagar - 382423, Gujarat.\nPhone (Contact Us page): +91 63589 75111\nPhone (website header and footer): +91 63589 75222\nEmail: admissions@aidtm.ac.in\nExecutive Education enquiries: exedu@aidtm.ac.in\nOnline application: https://www.aidtm.ac.in/apply-admission",
+    "source_url": "https://www.aidtm.ac.in/ContactUs",
+    "last_updated": "2026-10-31",
+    "tags": [
+      "contact",
+      "address",
+      "phone",
+      "email",
+      "location",
+      "gandhinagar",
+      "reach"
+    ],
+    "managed_by": "ingestion"
+  }
+]
