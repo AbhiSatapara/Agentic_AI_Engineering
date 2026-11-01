@@ -25,7 +25,7 @@ except ImportError:  # pragma: no cover - handled gracefully when dependency is 
     traceable = None
 from retrieval import retrieve, format_context
 from support_tools import (check_student_fee_status, retrieve_payment_policy, create_support_request,
-                            remember_student_fact, get_student_memory, request_contact_update,
+                            remember_student_fact, get_student_memory, get_student_contact_details, request_contact_update,
                             list_pending_approvals, decide_contact_update)
 
 load_dotenv()
@@ -626,6 +626,7 @@ TOOL_DEFINITIONS = [
     {"type": "function", "function": {"name": "create_support_request", "description": "Create a support request for the currently authenticated student only.", "parameters": {"type": "object", "properties": {"student_id": {"type": "string"}, "issue": {"type": "string"}}, "required": ["student_id", "issue"]}}},
     {"type": "function", "function": {"name": "remember_student_fact", "description": "Save only an explicitly requested, durable, non-sensitive fact for the authenticated student. Never save passwords, OTPs, PINs, or secrets.", "parameters": {"type": "object", "properties": {"student_id": {"type": "string"}, "fact_type": {"type": "string", "enum": ["programme", "learning_preference", "communication_preference", "career_interest"]}, "value": {"type": "string"}}, "required": ["student_id", "fact_type", "value"]}}},
     {"type": "function", "function": {"name": "get_student_memory", "description": "Retrieve saved non-sensitive memory for the authenticated student only.", "parameters": {"type": "object", "properties": {"student_id": {"type": "string"}}, "required": ["student_id"]}}},
+    {"type": "function", "function": {"name": "get_student_contact_details", "description": "Retrieve the authenticated student's own registered mobile number and email when they ask to show or view their contact details. If the user asks for another student's contact details, pass that requested student ID so the backend can deny access. Never use another student's data.", "parameters": {"type": "object", "properties": {"student_id": {"type": "string"}}, "required": ["student_id"]}}},
     {"type": "function", "function": {"name": "request_contact_update", "description": "Request a mobile number or email update for the authenticated student. This only creates a pending approval; it MUST NOT update the record until the student explicitly clicks Confirm update in the confirmation card.", "parameters": {"type": "object", "properties": {"student_id": {"type": "string"}, "field": {"type": "string", "enum": ["mobile_number", "email"]}, "new_value": {"type": "string"}}, "required": ["student_id", "field", "new_value"]}}},
 ]
 
@@ -635,6 +636,7 @@ TOOL_FUNCTIONS = {
     "create_support_request": create_support_request,
     "remember_student_fact": remember_student_fact,
     "get_student_memory": get_student_memory,
+    "get_student_contact_details": get_student_contact_details,
     "request_contact_update": request_contact_update,
 }
 
@@ -651,7 +653,7 @@ def stream_reply(history: list[dict], student_id: str):
     evidence = format_context(result.docs) if result.found else ""
     memory = get_student_memory(student_id) if student_id else {"found": False}
 
-    system = SYSTEM_PROMPT + "\n\nYou are an agent. The authenticated Student ID is " + (student_id or "NOT PROVIDED") + ". Treat this identity as authoritative. Never reveal or modify another student's private data. If the user explicitly asks for another student's record, pass the requested ID to the tool so application-level authorization can deny it; do not substitute the current student's data. Use the authenticated identity for normal own-record requests. For contact changes, call request_contact_update to create a pending request only; clearly tell the student that an on-screen confirmation card will appear with the proposed value and Confirm update / Cancel request buttons; no change occurs until Confirm update is clicked. Never claim a contact detail has changed merely because a request was created. For support tickets, report only the ticket ID, category, and status returned by the tool. Payment-failure guidance is based on an illustrative assignment scenario, not verified official AIDTM policy. Store memory only when explicitly requested and only non-sensitive durable facts; never store OTPs, passwords, PINs, or secrets."
+    system = SYSTEM_PROMPT + "\n\nYou are an agent. The authenticated Student ID is " + (student_id or "NOT PROVIDED") + ". Treat this identity as authoritative. Never reveal or modify another student's private data. If the user explicitly asks for another student's record, pass the requested ID to the tool so application-level authorization can deny it; do not substitute the current student's data. Use the authenticated identity for normal own-record requests. When the student asks to show or view their contact details, call get_student_contact_details and display only the returned mobile number and email. If they ask for another student's contact details, pass the requested ID to this tool and display its denial message; never substitute or reveal another student's data. Do not display contact details automatically on page load. For contact changes, call request_contact_update to create a pending request only; clearly tell the student that an on-screen confirmation card will appear with the proposed value and Confirm update / Cancel request buttons; no change occurs until Confirm update is clicked. Never claim a contact detail has changed merely because a request was created. For support tickets, report only the ticket ID, category, and status returned by the tool. Payment-failure guidance is based on an illustrative assignment scenario, not verified official AIDTM policy. Store memory only when explicitly requested and only non-sensitive durable facts; never store OTPs, passwords, PINs, or secrets."
     if evidence:
         system += "\n\nRELEVANT VERIFIED AIDTM KNOWLEDGE:\n" + evidence
     if memory.get("found"):
@@ -683,7 +685,7 @@ def stream_reply(history: list[dict], student_id: str):
             name = call.function.name
             try:
                 args = json.loads(call.function.arguments or "{}")
-                if name in {"check_student_fee_status", "create_support_request", "remember_student_fact", "get_student_memory", "request_contact_update"}:
+                if name in {"check_student_fee_status", "create_support_request", "remember_student_fact", "get_student_memory", "get_student_contact_details", "request_contact_update"}:
                     args["authenticated_student_id"] = student_id
                     args.setdefault("student_id", student_id)
                 if name not in TOOL_FUNCTIONS:
@@ -846,37 +848,6 @@ with st.sidebar:
             st.rerun()
 
 # --------------------------------------------------------------------------- #
-# Student contact details: submit a change request for confirmation.
-# --------------------------------------------------------------------------- #
-with st.expander("My Contact Details", expanded=False):
-    st.caption("View or request a change to your registered mobile number and email. Changes are saved only after you confirm the approval card below.")
-    mobile_current = str(CURRENT_STUDENT.get("mobile_number", "") or "")
-    email_current = str(CURRENT_STUDENT.get("email", "") or "")
-    st.markdown(f"**Current mobile number:** {html.escape(mobile_current) if mobile_current else 'Not provided'}")
-    with st.form("mobile_update_form"):
-        mobile_new = st.text_input("New mobile number", placeholder="Enter mobile number", key="contact_mobile_input")
-        mobile_submit = st.form_submit_button("Request mobile number change", use_container_width=True)
-    if mobile_submit:
-        result = request_contact_update(CURRENT_STUDENT_ID, "mobile_number", mobile_new, CURRENT_STUDENT_ID)
-        if result.get("ok"):
-            st.success("Mobile number change request submitted. Review and confirm it below.")
-            st.rerun()
-        else:
-            st.error(result.get("message", "Could not submit mobile number request."))
-
-    st.markdown(f"**Current email address:** {html.escape(email_current) if email_current else 'Not provided'}")
-    with st.form("email_update_form"):
-        email_new = st.text_input("New email address", placeholder="Enter email address", key="contact_email_input")
-        email_submit = st.form_submit_button("Request email change", use_container_width=True)
-    if email_submit:
-        result = request_contact_update(CURRENT_STUDENT_ID, "email", email_new, CURRENT_STUDENT_ID)
-        if result.get("ok"):
-            st.success("Email change request submitted. Review and confirm it below.")
-            st.rerun()
-        else:
-            st.error(result.get("message", "Could not submit email request."))
-
-# --------------------------------------------------------------------------- #
 # Main area
 # --------------------------------------------------------------------------- #
 if not chat["messages"]:
@@ -906,6 +877,12 @@ else:
         with st.chat_message("assistant", avatar="🎓"):
             st.markdown(notice["text"])
 
+# Show the result of the latest approval action as an assistant chat message.
+action_notice = st.session_state.pop("contact_action_notice", None)
+if action_notice:
+    with st.chat_message("assistant", avatar="🎓"):
+        st.success(action_notice)
+
 # --------------------------------------------------------------------------- #
 # Student confirmation panel: only the signed-in student's own requests.
 # --------------------------------------------------------------------------- #
@@ -925,14 +902,14 @@ if pending_approvals:
             yes_col, no_col = st.columns(2)
             if yes_col.button("Confirm update", key=f"approve_{approval['request_id']}", type="primary", use_container_width=True):
                 result = decide_contact_update(approval["request_id"], CURRENT_STUDENT_ID, True)
-                if result.get("ok"):
-                    st.success(result.get("message", "Your contact detail has been updated."))
+                if result.get("ok") and result.get("executed"):
+                    st.session_state.contact_action_notice = result.get("message", f"Your {label.lower()} has been updated successfully.")
                 else:
-                    st.error(result.get("message", "Update could not be completed."))
+                    st.session_state.contact_action_notice = result.get("message", "Update could not be completed. No change was made.")
                 st.rerun()
             if no_col.button("Cancel request", key=f"reject_{approval['request_id']}", use_container_width=True):
                 result = decide_contact_update(approval["request_id"], CURRENT_STUDENT_ID, False)
-                st.warning(result.get("message", "Request cancelled. Your existing detail remains unchanged."))
+                st.session_state.contact_action_notice = result.get("message", "You selected Reject. Your existing contact details remain unchanged.")
                 st.rerun()
 
 
