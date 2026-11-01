@@ -92,6 +92,24 @@ def create_support_request(student_id: str, issue: str, authenticated_student_id
     return {"ok": True, "ticket": ticket, "message": "Support request recorded successfully."}
 
 
+def get_student_contact_details(student_id: str, authenticated_student_id: str = "") -> dict:
+    """Return contact details only for the authenticated student; deny cross-student requests."""
+    actor = (authenticated_student_id or "").strip().upper()
+    sid = (student_id or actor).strip().upper()
+    if not actor or not _authorized(sid, actor):
+        _audit(actor or "UNKNOWN", "read_contact_details", sid or "UNKNOWN", "DENIED", {"reason": "cross_student_access"})
+        return {"ok": False, "code": "ACCESS_DENIED", "message": "Access denied. You can only view your own contact details."}
+    data = _read(STUDENTS_FILE, {"students": []})
+    student = next((s for s in data.get("students", []) if s.get("student_id", "").upper() == actor), None)
+    if not student:
+        _audit(actor, "read_contact_details", actor, "NOT_FOUND")
+        return {"ok": False, "message": "Your student record could not be found."}
+    _audit(actor, "read_contact_details", actor, "ALLOWED")
+    return {"ok": True, "student": {"student_id": actor, "name": student.get("name", "Student"),
+                                      "mobile_number": student.get("mobile_number", "Not provided"),
+                                      "email": student.get("email", "Not provided")}}
+
+
 def request_contact_update(student_id: str, field: str, new_value: str, authenticated_student_id: str = "") -> dict:
     """Create a pending request; never changes the student record here."""
     actor = (authenticated_student_id or "").strip().upper()
@@ -142,7 +160,9 @@ def decide_contact_update(request_id: str, authenticated_student_id: str, approv
         req["executed"] = False
         _write(APPROVALS_FILE, approvals)
         _audit(actor, "decide_contact_update", actor, "REJECTED_NOT_EXECUTED", {"request_id": request_id, "field": req["field"]})
-        return {"ok": True, "status": "REJECTED", "executed": False, "message": "Request rejected. No student information was changed."}
+        field_label = "mobile number" if req["field"] == "mobile_number" else "email address"
+        return {"ok": True, "status": "REJECTED", "executed": False,
+                "message": f"You selected Reject. Your registered {field_label} has not been changed; your existing contact details remain unchanged."}
 
     students = _read(STUDENTS_FILE, {"students": []})
     student = next((s for s in students.get("students", []) if s.get("student_id", "").upper() == actor), None)
@@ -164,7 +184,9 @@ def decide_contact_update(request_id: str, authenticated_student_id: str, approv
     req["executed"] = True
     _write(APPROVALS_FILE, approvals)
     _audit(actor, "execute_contact_update", actor, "APPROVED_AND_EXECUTED", {"request_id": request_id, "field": field, "changed": True})
-    return {"ok": True, "status": req["status"], "executed": True, "message": f"Your {field.replace('_', ' ')} has been updated successfully."}
+    field_label = "mobile number" if field == "mobile_number" else "email address"
+    return {"ok": True, "status": req["status"], "executed": True,
+            "message": f"Success! Your registered {field_label} has been updated successfully."}
 
 
 def remember_student_fact(student_id: str, fact_type: str, value: str, authenticated_student_id: str = "") -> dict:
